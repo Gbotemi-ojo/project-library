@@ -73,5 +73,10 @@ function newbook(){
         clearinput()
     }
 }
+container.forEach((element,index)=>{
+    element.addEventListener("click",()=>{
+        console.log(`button at index ${index} clicked`)
+    })
+})
 
 
